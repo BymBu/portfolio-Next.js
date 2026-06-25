@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: "EngPulse - онлайн школа английского",
     description:
       "Онлайн школа с возможностью покупки курсов английского. Интеграция с Moodle.",
-    tech: ["1C Bitrix", 'Integration', 'PHP'],
+    tech: ["1C Bitrix", "Integration", "PHP"],
     image: "/mock",
     link: "https://promo.engpulse.ru/",
   },
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     title: "3D Байкал",
     description:
       "Интерактивная 3D‑платформа для экологического мониторинга озера Байкал. Vue 3 + Three.js + Laravel API. Маркеры, данные по воде/воздуху/туризму/событиям, день/ночь, адаптив.",
-    tech: ["Three.js", "React", "TypeScript"],
+    tech: ["Three.js", "Vue.js", "Laravel API", "GLTFLoader"],
     image: "/mock",
     link: "https://it-baikal.vercel.app/",
   },
@@ -45,12 +45,12 @@ export const projects: Project[] = [
       "OAuth 2.0 Authorization Server на NestJS с поддержкой Password Grant, Refresh Token, Authorization Code Flow и PKCE. Включает защиту от перебора учетных данных, token rotation, управление scope и хранение токенов в PostgreSQL. Готов к интеграции в микросервисную архитектуру.",
     tech: ["NestJS", "PostgreSQL", "Vue.js", "Pinia"],
     image: "/mock",
-    link: "https://github.com/BymBu/SecureAccessNestJS",
-    link2: "https://github.com/BymBu/Secure-Access-Vue.js",
+    link: "https://github.com/BymBu/Secure-Access-Vue.js",
+    link2: "https://github.com/BymBu/SecureAccessNestJS",
   },
   {
     id: 5,
-    title: "MyToolKit - native JavaScript DashBoard",
+    title: "MyToolKit - Native JavaScript Dashboard",
     description:
       "1 место. Разработано в рамках конкурса «Открытые IT проекты» от СибГУТИ. SPA-приложение, созданное с нуля как единое пространство для управления задачами, погодой, опросами и другими полезными модулями.",
     tech: ["JavaScript", "Api", "Module system"],

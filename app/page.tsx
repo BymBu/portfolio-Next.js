@@ -15,7 +15,7 @@ export default function Home() {
             alt="Вячеслав Ерофеев" 
             fill
             style={{ objectFit: 'cover' }}
-            priority // Загружаем сразу, так как это выше fold
+            priority
           />
         </div>
       </section>
